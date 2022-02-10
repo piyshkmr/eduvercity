@@ -1,0 +1,61 @@
+/* media query  */
+
+html {
+  font-size: 50%;
+}
+
+nav {
+  padding: 4% 5%;
+}
+
+nav .menu {
+  display: block;
+  flex-grow: 1;
+  text-align: right;
+}
+
+.hero-content h1 {
+  font-size: 5rem;
+}
+
+.nav-links {
+  height: 100vh;
+  background-color: #f44336;
+  position: fixed;
+  right: -34rem;
+  top: 0;
+  width: 34rem;
+  z-index: 10;
+  padding: 1% 4%;
+}
+
+.hero-content p {
+  margin-top: 1rem;
+  padding: 0 0;
+}
+
+.nav-links ul li {
+  display: block;
+  text-align: left;
+  margin: 2rem 0;
+}
+
+.nav-links ul li a {
+  font-size: 2.2rem;
+}
+
+#about .container {
+  grid-template-columns: 1fr;
+}
+#testimonials .container {
+  grid-template-columns: 1fr;
+}
+#contact .container {
+  grid-template-columns: 1fr;
+}
+#courses .container {
+  grid-template-columns: 1fr;
+}
+#facilities .container {
+  grid-template-columns: 1fr;
+}
